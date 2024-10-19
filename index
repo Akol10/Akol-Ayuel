@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akol Sneaker Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: transparent;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            margin: 0;
+        }
+        .sneaker-category {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .sneaker {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .sneaker img {
+            width: 100%;
+            height: auto;
+        }
+        .sneaker h2 {
+            font-size: 1.2em;
+            color: #007BFF;
+            margin: 10px 0;
+        }
+        .sneaker p {
+            padding: 0 10px;
+            color: #555;
+        }
+        @media (max-width: 600px) {
+            .sneaker-category {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Akol Sneaker Collection</h1>
+        <p>Explore our latest sneaker styles!</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#location">Location</a>
+        </nav>
+    </header>
+
+    <section class="sneaker-category">
+        <div class="sneaker">
+            <img src="h.jpg" alt="Sneaker 1">
+            <h2>Classic Sneakers</h2>
+            <p>Timeless designs for everyday wear.</p>
+        </div>
+
+        <div class="sneaker">
+            <img src="ak.jpg" alt="Sneaker 2">
+            <h2>Running Shoes</h2>
+            <p>Lightweight and comfortable for the best performance.</p>
+        </div>
+
+        <div class="sneaker">
+            <img src="lo.jpg" alt="Sneaker 3">
+            <h2>Basketball Kicks</h2>
+            <p>Designed for agility and support on the court.</p>
+        </div>
+
+        <div class="sneaker">
+            <img src="sneaker.jpg" alt="Sneaker 4">
+            <h2>Fashion Sneakers</h2>
+            <p>Trendy styles to match your outfit.</p>
+        </div>
+    </section>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: akolayuel2@gmail.com</p>
+            <p>Phone:(250) 794416342</p>
+        </section>
+
+        <section id="location">
+            <h2>Our Location</h2>
+            <p>Rwanda kigali City</p>
+        </section>
+    </footer>
+</body>
+</html>

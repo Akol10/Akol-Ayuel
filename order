@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Order Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .sneaker {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .sneaker img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .sneaker:hover {
+            transform: scale(1.05);
+        }
+        .order-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .order-button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            .sneaker {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Order Your Sneakers</h1>
+    <div class="container">
+        <div class="sneaker">
+            <img src="kkkk.png" alt="Sneaker 1">
+            <h3>Sneaker 1</h3>
+            <p>Price: $99.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="sneaker">
+            <img src="jjjj.jpg" alt="Sneaker 2">
+            <h3>Sneaker 2</h3>
+            <p>Price: $89.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+        <div class="sneaker">
+            <img src="images.png" alt="Sneaker 3">
+            <h3>Sneaker 3</h3>
+            <p>Price: $79.99</p>
+            <button class="order-button">Order Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
